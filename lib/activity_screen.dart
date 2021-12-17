@@ -20,7 +20,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
           title: const Text("Lista de atividades"),
         ),
         body: ListView(
-          children: WidgetFactory().getActivities(),
+          children: WidgetFactory().getActivities(this),
         ),
       ),
     );
