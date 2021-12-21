@@ -12,15 +12,15 @@ class ActivityScreen extends StatefulWidget {
 class _ActivityScreenState extends State<ActivityScreen> {
   @override
   Widget build(BuildContext context) {
+    WidgetFactory widgetFactory = WidgetFactory(this);
     return MaterialApp(
       theme: ThemeData.dark(),
       title: "Lista de atividades",
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Lista de atividades"),
-        ),
+        appBar: widgetFactory.getAppBar("Atividades"),
+        bottomNavigationBar: widgetFactory.getBottomBar(),
         body: ListView(
-          children: WidgetFactory().getActivities(this),
+          children: widgetFactory.getActivities(),
         ),
       ),
     );
