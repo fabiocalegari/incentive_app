@@ -16,7 +16,7 @@ class WidgetFactory {
           clipBehavior: Clip.antiAlias,
           child: ListTile(
             title: Text(activities[x].name),
-            subtitle: Text("Resumo: " + activities[x].name),
+            subtitle: Text(activities[x].description),
             leading: Switch(
               value: activities[x].ok,
               onChanged: (bool value) {
@@ -28,14 +28,6 @@ class WidgetFactory {
           )));
     }
     return cards;
-  }
-
-  AppBar getAppBar(String title) {
-    AppBar appBar = AppBar(
-      leading: const Icon(Icons.menu),
-      title: Text(title),
-    );
-    return appBar;
   }
 
   BottomNavigationBar getBottomBar() {
