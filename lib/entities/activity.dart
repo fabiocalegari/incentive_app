@@ -1,4 +1,4 @@
-import 'package:incentive_app/period.dart';
+import 'package:incentive_app/entities/period.dart';
 
 class Activity {
   late Period period;
