@@ -1,0 +1,1 @@
+enum Perfil { responsavel, acompanhado }

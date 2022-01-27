@@ -1,5 +1,5 @@
-import 'package:incentive_app/entities/activity.dart';
-import 'package:incentive_app/entities/period.dart';
+import 'package:incentive_app/model/activity.dart';
+import 'package:incentive_app/model/period.dart';
 
 class Mock {
   List<Activity> mockActivities() {

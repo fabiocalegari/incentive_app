@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "833770516738",
+    "project_id": "incentive-app-a8a92",
+    "storage_bucket": "incentive-app-a8a92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833770516738:android:9eda3dfbd8307c26a7921b",
+        "android_client_info": {
+          "package_name": "com.incentive.incentive_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833770516738-divsnm1c346uj68ud5gn4uf3nqpao922.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATaF_dPw29iPWJytnACNt7VfbEwsdfr58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833770516738-divsnm1c346uj68ud5gn4uf3nqpao922.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

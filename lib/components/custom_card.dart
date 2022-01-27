@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:incentive_app/entities/activity.dart';
+import 'package:incentive_app/model/activity.dart';
 
 class CustomCard {
   late final State _screenState;

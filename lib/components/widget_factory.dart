@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:incentive_app/entities/activity.dart';
 import 'package:incentive_app/mock.dart';
+import 'package:incentive_app/model/activity.dart';
 
 final List<Activity> activities = Mock().mockActivities();
 late State _activityScreenState;
