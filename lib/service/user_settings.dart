@@ -12,6 +12,10 @@ class UserSettings {
     }
   }
 
+  static bool isLoggedUser() {
+    return false;
+  }
+
   static void logout() {
     _auth.signOut();
   }
