@@ -127,7 +127,7 @@ class _RegisterState extends State<Register> {
 
     CollectionReference userPerfil = _firestore.collection('user_perfil');
 
-    userPerfil.add({'perfil': null, 'user': user.user?.uid});
+    userPerfil.add({'perfil': 2, 'user': user.user?.uid});
 
     return true;
   }
